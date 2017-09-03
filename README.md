@@ -8,3 +8,5 @@ yarn
 # Starts TypeScript compiler, Gulp watch, and Polymer dev server
 npm run dev
 ```
+
+This will start a polymer dev server, and you can open http://127.0.0.1:8000/ to see Polymer 3 in action.
