@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "allowJs": false, // Throws error for imports with no asociated .d.ts file, but prevents compiler from processing it
+        "moduleResolution": "classic",
+        "module": "esnext",
+        "target": "esnext"
+    },
+    "exclude": [
+        "./dist/**",
+        "./node_modules/**"
+    ]
+}

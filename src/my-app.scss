@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+pretty-button {
+    margin: 5px;
+    --button-color: #00bcca;
+
+    &.button--red {
+        --button-color: #8F0606;
+    }
+}

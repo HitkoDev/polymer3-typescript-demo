@@ -1,0 +1,22 @@
+:host {
+    display: block;
+}
+
+$color: var(--button-color, #00f);
+
+a.button {
+    display: inline-block;
+    padding: 5px 15px;
+    background: none;
+    color: $color;
+    text-decoration: none;
+    border: 1px solid $color;
+    border-radius: 4px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background: $color;
+    }
+}
